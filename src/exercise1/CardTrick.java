@@ -80,10 +80,10 @@ public class CardTrick {
 	System.out.println();	
 
         System.out.println("My hobbies:");
-        System.out.println("-- Reading");
+        System.out.println("-- Reading good books");
         System.out.println("-- Watching movies");
         System.out.println("-- Listening to music");
-        System.out.println("-- Create and play music");
+        System.out.println("-- Create and play music, I play different instruments");
 
         System.out.println();
         
