@@ -9,12 +9,11 @@ package exercise1;
  * add your name as a modifier.
  * @author dancye
  * @author Paul Bonenfant May 2020
- * @modifier Daniel Medina, January 2023
  */
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
-   private int value;
+   private int value;//1-13
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
@@ -43,6 +42,5 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
-        }
     }  
-
+}
