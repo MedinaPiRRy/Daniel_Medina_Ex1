@@ -8,6 +8,7 @@ import java.util.Scanner;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 25, 2022 
+ * @editor Daniel Medina, 2023
  */
 public class CardTrick {
     
@@ -17,12 +18,14 @@ public class CardTrick {
         Card[] hand = new Card[7];
         Card card = new Card();
         
-                for (int i = 0; i < hand.length; i++) {
+         for (int i = 0; i < hand.length; i++) {
             int a = (int) ((Math.random() * 13) + 1);
-            hand[0].setValue(a);
+            card.setValue(a);
             
             int b = (int) (Math.random() * 3);
-            hand[0].setSuit(card.SUITS[b]);
+            card.setSuit(card.SUITS[b]);
+            
+            hand[i] = card;
             //card.setValue(insert call to random number generator here)
             // 
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
@@ -30,13 +33,14 @@ public class CardTrick {
             //       Don't worry about duplicates at this point
         }
 
+            
         System.out.println("Choose your card");
         System.out.println("Choose the value of your card");
         System.out.println("Remember that 1: ace, 11: jack, 12: queen, 13: king");
         Card user = new Card();
         int a1 = input.nextInt();
         user.setValue(a1);
-        System.out.println("Choose yout card's suit");
+        System.out.println("Choose your card's suit");
         System.out.println("0: Hearts, 1: Diamonds, 2: Spades, 3: Clubs");
         int a2 = input.nextInt();
         user.setSuit(user.SUITS[a2]);
@@ -64,7 +68,7 @@ public class CardTrick {
     /**
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
-     * @author Paul Bonenfant Jan 2022
+     * @author Daniel Medina, 2023
      * I'm Done
      */
     private static void printInfo() {
