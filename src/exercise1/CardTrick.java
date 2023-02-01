@@ -39,6 +39,7 @@ public class CardTrick {
      * A simple method to print out personal information. Follow the instructions to 
      * replace this information with your own.
      * @author Paul Bonenfant Jan 2022
+     * I'm done!
      */
     private static void printInfo() {
     
@@ -58,6 +59,10 @@ public class CardTrick {
         System.out.println("-- Cooking");
         System.out.println("-- Reading/Watching TV");
         System.out.println("-- Riding my motorcycle");
+        System.out.println("-- Reading good books");
+        System.out.println("-- Watching movies");
+        System.out.println("-- Listening to music");
+        System.out.println("-- Create and play music, I play different instruments");
 
         System.out.println();
         
